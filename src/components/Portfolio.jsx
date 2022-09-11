@@ -1,21 +1,13 @@
 import React from "react";
-import mipangilio from "../assets/portfolio/mipangilio.png";
-
-import aircart from "../assets/portfolio/aircart.PNG";
+import blog from "../assets/portfolio/blog-blog.PNG";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: mipangilio,
-      demo: "https://mipangilio.netlify.app",
-      code: "https://github.com/jackjavi/task-manager-full-stack",
-    },
-    {
-      id: 2,
-      src: aircart,
-      demo: "https://aircart-test.netlify.app",
-      code: "https://github.com/jackjavi/aircart",
+      src: blog,
+      demo: "https://trending-trends.netlify.app",
+      code: "https://github.com/jackjavi/blog-frontend",
     },
   ];
 
@@ -27,7 +19,7 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
