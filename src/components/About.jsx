@@ -4,30 +4,32 @@ const About = () => {
   return (
     <div
       name="about"
-      className="pt-6 w-full h-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className=" w-full h-full md:h-screen bg-gray-200 text-white flex flex-col items-center justify-center mx-auto"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-3xl sm:text-5xl font-valera text-white font-bold inline border-b-4 border-gray-500">
+      <div className="max-w-screen-lg p-4 flex flex-col justify-center gap-[10%] w-full h-full">
+        <div className="mx-auto pb-8">
+          <p className="text-3xl sm:text-5xl font-valera text-gray-700 font-bold inline border-b-4 border-gray-700">
             About
           </p>
         </div>
 
-        <p className="text-1xl mt-2 font-lora">
-          Hello, I am an IT professional who has a significant commitment to
-          delivery of high quality web applications with beautiful UI.
-        </p>
+        <div className="mx-auto">
+          <p className="text-1xl mx-auto mt-2 font-lora text-gray-700">
+            Hello, I am an IT professional who has a significant commitment to
+            delivery of high quality web applications with beautiful UI.
+          </p>
 
-        <br />
+          <br />
 
-        <p className="text-1xl font-lora">
-          I have amassed great skills in the field of IT and web development
-          since pursuing a degree in Information Technology way back in 2015
-          before later graduating (December 2021) and specializing in full-stack
-          web development [MERN Stack]. I provide complete solutions to my
-          clients and turn their ideas into complete web apps and provide them
-          regular support.
-        </p>
+          <p className="text-1xl mx-auto font-lora text-gray-700">
+            I have amassed great skills in the field of IT and web development
+            since pursuing a degree in Information Technology way back in 2015
+            before later graduating (December 2021) and specializing in
+            full-stack web development [MERN Stack]. I provide complete
+            solutions to my clients and turn their ideas into complete web apps
+            and provide them regular support.
+          </p>
+        </div>
       </div>
     </div>
   );
