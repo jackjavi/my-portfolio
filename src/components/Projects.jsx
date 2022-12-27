@@ -1,5 +1,5 @@
 import React from "react";
-import blog from "../assets/blog2.jpg";
+import blog from "../assets/blog.jpg";
 import weather from "../assets/weather.jpg";
 import chat from "../assets/chat.jpg";
 
