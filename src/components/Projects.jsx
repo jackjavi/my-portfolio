@@ -59,19 +59,19 @@ const Projects = () => {
                 </div>
 
                 <div className="px-4 pt-[5%] h-[30%]">
-                  <h5 className="text-md mx-auto font-bold font-lora text-gray-700">
+                  <h5 className="text-md mx-auto font-bold mb-2 font-lora text-gray-700">
                     {projectTitle}
                   </h5>
-                  <p className="text-sm font-lora text-gray-700">
+                  <p className="text-sm font-josefin text-gray-700">
                     {projectDesc}
                   </p>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center font-lora">
                   <a
                     href={demo}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="cursor-pointer w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   >
                     Demo
                   </a>
@@ -79,7 +79,7 @@ const Projects = () => {
                     href={code}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="cursor-pointer w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   >
                     Code
                   </a>
