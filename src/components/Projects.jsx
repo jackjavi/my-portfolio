@@ -39,13 +39,10 @@ const Projects = () => {
       name="projects"
       className="border-b-[1px] border-gray-300  py-12 bg-gray-200 w-full text-gray-700 flex flex-col justify-center items-center"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="">
-          <p className="text-3xl sm:text-5xl font-bold font-valera inline border-b-4 border-gray-500">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
+        <div className="py-6">
+          <p className=" text-3xl sm:text-5xl font-bold font-valera inline ">
             Projects
-          </p>
-          <p className="py-6 text-1xl font-lora">
-            Check out some of my work right here
           </p>
         </div>
 

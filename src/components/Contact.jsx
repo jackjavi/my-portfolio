@@ -7,8 +7,8 @@ const Contact = () => {
       className="w-full h-full md:h-screen bg-gray-200 text-gray-700"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
-          <p className="text-3xl sm:text-5xl font-valera font-bold inline border-b-4 border-gray-500">
+        <div className="pb-8 flex flex-col justify-center items-center">
+          <p className="text-3xl sm:text-5xl font-valera font-bold inline">
             Contact
           </p>
           <p className="py-6" text-1xl font-lora>
@@ -20,7 +20,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/ae834033-cf08-4bdf-abdc-879e5999abb2"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-3/4"
           >
             <input
               type="text"
