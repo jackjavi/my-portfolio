@@ -1,61 +1,69 @@
 import React from "react";
-import blog from "../assets/portfolio/blog-blog.PNG";
+import { Link } from "react-scroll";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import reactImage from "../assets/react.png";
+import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
+import django from "../assets/django.png";
 
-const Portfolio = () => {
-  const portfolios = [
-    {
-      id: 1,
-      src: blog,
-      demo: "https://trending-trends.netlify.app",
-      code: "https://github.com/jackjavi/blog-frontend",
-    },
-  ];
-
+function Portfolio() {
   return (
-    <div
-      name="portfolio"
-      className="pt-6 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Projects
-          </p>
-          <p className="py-6">Check out some of my work right here</p>
+    <div className="flex flex-col items-center justify-center md:pt-0 pt-24 md:h-screen bg-gray-200">
+      <div className="text-2xl sm:text-4xl md:text-5xl font-lora font-bold text-gray-700 mb-6">
+        Hi, I'm Jackton Mtembete
+      </div>
+      <div className="text-lg sm:text-1xl md:text-2xl font-lora font-semibold text-gray-700 mb-4">
+        Full Stack Developer
+      </div>
+      <div className="text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
+        I specialize in building web and mobile applications using React,
+        Tailwind CSS, Node.js, and Django.
+      </div>
+      <div className="flex flex-wrap justify-around mb-8">
+        <div className="w-1/4 p-2 text-center">
+          <img src={reactImage} alt="React logo" className="w-12 h-12 mb-2" />
+          <div className="text-xs font-semibold text-gray-700">React</div>
         </div>
+        <div className="w-1/4 p-2 text-center">
+          <img
+            src={tailwind}
+            alt="Tailwind CSS logo"
+            className="w-12 h-12 mb-2"
+          />
+          <div className="text-xs font-semibold text-gray-700">
+            Tailwind CSS
+          </div>
+        </div>
+        <div className="w-1/4 p-2 text-center">
+          <img src={node} alt="Node.js logo" className="w-12 h-12 mb-2" />
+          <div className="text-xs font-semibold text-gray-700">Node.js</div>
+        </div>
+        <div className="w-1/4 p-2 text-center">
+          <img src={django} alt="Django logo" className="w-12 h-12 mb-2" />
+          <div className="text-xs font-semibold text-gray-700">Django</div>
+        </div>
+      </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <a
-                  href={demo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                >
-                  Demo
-                </a>
-                <a
-                  href={code}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                >
-                  Code
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="mx-auto">
+        <Link
+          to="projects"
+          smooth
+          duration={500}
+          className="group text-white font-valera text-1xl w-fit px-6 py-3 my-4 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+        >
+          View my projects
+          <span className="group-hover:rotate-90 duration-300">
+            <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+          </span>
+        </Link>
+      </div>
+      <div className="text-xs sm:text-sm md:text-md font-lora font-light text-gray-700 cursor-pointer">
+        <Link to="contact" smooth duration={500}>
+          Contact me at +254 794 326 235
+        </Link>
       </div>
     </div>
   );
-};
+}
 
 export default Portfolio;

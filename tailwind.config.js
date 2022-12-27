@@ -4,6 +4,9 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature: ["Great Vibes"],
+      josefin: ['"Josefin Sans"', "sans-serif"],
+      lora: ["Lora", "serif"],
+      valera: ["Valera", "sans-serif"],
     },
   },
   plugins: [],
