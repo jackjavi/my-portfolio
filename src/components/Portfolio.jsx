@@ -8,7 +8,7 @@ import django from "../assets/django.png";
 
 function Portfolio() {
   return (
-    <div className="flex flex-col items-center justify-center md:pt-0 pt-24 h-screen bg-gray-200">
+    <div className="border-b-[1px] border-gray-300 flex flex-col items-center justify-center md:pt-0 pt-24 h-screen bg-gray-200">
       <div className="text-2xl sm:text-4xl md:text-5xl font-lora font-bold text-gray-700 mb-6">
         Hi, I'm Jackton Mtembete
       </div>
