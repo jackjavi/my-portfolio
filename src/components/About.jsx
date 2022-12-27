@@ -1,4 +1,5 @@
 import React from "react";
+import HeroImage from "../assets/aboutImg.avif";
 
 const About = () => {
   return (
@@ -12,22 +13,32 @@ const About = () => {
             About
           </p>
         </div>
+        <div className="rounded-full h-[30%]">
+          <img
+            src={HeroImage}
+            alt="my profile"
+            className=" rounded-md object-cover mx-auto h-full w-full"
+          />
+        </div>
 
         <div className="mx-auto">
           <p className="text-1xl mx-auto mt-2 font-lora text-gray-700">
-            Hello, I am an IT professional who has a significant commitment to
-            delivery of high quality web applications with beautiful UI.
+            Hello! My name is Jackton Mtembete and I am a full stack developer
+            with a passion for building beautiful and functional web
+            applications. I have a strong foundation in frontend development,
+            utilizing React and Tailwind CSS to create engaging user interfaces.
+            On the backend, I have expertise in Node.js, Django and use MongoDB
+            as my database of choice.
           </p>
 
           <br />
 
           <p className="text-1xl mx-auto font-lora text-gray-700">
-            I have amassed great skills in the field of IT and web development
-            since pursuing a degree in Information Technology way back in 2015
-            before later graduating (December 2021) and specializing in
-            full-stack web development [MERN Stack]. I provide complete
-            solutions to my clients and turn their ideas into complete web apps
-            and provide them regular support.
+            With a strong attention to detail and a desire to constantly learn
+            and improve, I am confident in my ability to deliver high-quality
+            software solutions for any project. In my free time, you can find me
+            tinkering with new technologies and exploring the latest web
+            development trends.
           </p>
         </div>
       </div>
