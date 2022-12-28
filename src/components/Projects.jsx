@@ -17,8 +17,8 @@ const Projects = () => {
     {
       id: 2,
       src: weather,
-      demo: "https://trending-trends.netlify.app",
-      code: "https://github.com/jackjavi/blog-frontend",
+      demo: "http://weatherdetector.pythonanywhere.com/",
+      code: "https://github.com/jackjavi/Weather-app.git",
       projectTitle: "A Weather app",
       projectDesc:
         "This Django app allows users to search for and view the current weather for a particular city using data from the OpenWeatherMap API.",
@@ -26,8 +26,8 @@ const Projects = () => {
     {
       id: 3,
       src: chat,
-      demo: "https://trending-trends.netlify.app",
-      code: "https://github.com/jackjavi/blog-frontend",
+      demo: "http://chatplatform.pythonanywhere.com/",
+      code: "https://github.com/jackjavi/chat-app.git",
       projectTitle: "A Chat app",
       projectDesc:
         "This is a simple web-based chat application built using the Django web framework and allows for real-time message updates.",
