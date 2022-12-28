@@ -5,6 +5,7 @@ import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import django from "../assets/django.png";
+import TextAnimator from "./TextAnimator";
 
 function Portfolio() {
   return (
@@ -13,10 +14,10 @@ function Portfolio() {
       className="border-b-[1px] border-gray-300 flex flex-col items-center justify-center md:pt-0 pt-24 h-screen bg-gray-200"
     >
       <div className="text-2xl sm:text-4xl md:text-5xl font-lora font-bold text-gray-700 mb-6">
-        Hi, I'm Jackton Mtembete
+        <TextAnimator text="Hi, I'm Jackton Mtembete" />
       </div>
       <div className="text-lg sm:text-1xl md:text-2xl font-lora font-semibold text-gray-700 mb-4">
-        Full Stack Developer
+        <TextAnimator text="Full Stack Developer" />
       </div>
       <div className="text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
         I specialize in building web and mobile applications using React,
