@@ -19,7 +19,7 @@ function Portfolio() {
       <div className="text-lg sm:text-1xl md:text-2xl font-lora font-semibold text-gray-700 mb-4">
         <TextAnimator text="Full Stack Developer" />
       </div>
-      <div className="text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
+      <div className="px-8 text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
         I specialize in building web and mobile applications using React,
         Tailwind CSS, Node.js, and Django.
       </div>
