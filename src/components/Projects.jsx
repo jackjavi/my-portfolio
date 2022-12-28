@@ -1,15 +1,10 @@
 import React from "react";
-import blog from "../assets/blog.jpg";
-import weather from "../assets/weather.jpg";
-import chat from "../assets/chat.jpg";
-import shell from "../assets/shell.jpeg";
-import printf from "../assets/printf.png";
 
 const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      src: blog,
+      src: "https://farm66.staticflickr.com/65535/52591715587_ca51b3c4d9_m.jpg",
       demo: "https://trending-trends.netlify.app",
       code: "https://github.com/jackjavi/blog-frontend",
       projectTitle: "A blog",
@@ -18,7 +13,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: weather,
+      src: "https://farm66.staticflickr.com/65535/52591692657_b4a89a7048_m.jpg",
       demo: "http://weatherdetector.pythonanywhere.com/",
       code: "https://github.com/jackjavi/Weather-app.git",
       projectTitle: "A Weather app",
@@ -27,7 +22,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      src: chat,
+      src: "https://farm66.staticflickr.com/65535/52592715123_185c752875_m.jpg",
       demo: "http://chatplatform.pythonanywhere.com/",
       code: "https://github.com/jackjavi/chat-app.git",
       projectTitle: "A Chat app",
@@ -36,7 +31,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: shell,
+      src: "https://farm66.staticflickr.com/65535/52592197886_261ec638c7_m.jpg",
       demo: "https://github.com/jackjavi/simple_shell.git",
       code: "https://github.com/jackjavi/simple_shell.git",
       projectTitle: "A Simple shell",
@@ -45,7 +40,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: printf,
+      src: "https://farm66.staticflickr.com/65535/52592622860_b11d83744b_m.jpg",
       demo: "https://github.com/jackjavi/printf.git",
       code: "https://github.com/jackjavi/printf.git",
       projectTitle: "A printf project",
