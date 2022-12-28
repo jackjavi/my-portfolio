@@ -2,6 +2,8 @@ import React from "react";
 import blog from "../assets/blog.jpg";
 import weather from "../assets/weather.jpg";
 import chat from "../assets/chat.jpg";
+import shell from "../assets/shell.jpeg";
+import printf from "../assets/printf.png";
 
 const Projects = () => {
   const portfolios = [
@@ -31,6 +33,24 @@ const Projects = () => {
       projectTitle: "A Chat app",
       projectDesc:
         "This is a simple web-based chat application built using the Django web framework and allows for real-time message updates.",
+    },
+    {
+      id: 4,
+      src: shell,
+      demo: "https://github.com/jackjavi/simple_shell.git",
+      code: "https://github.com/jackjavi/simple_shell.git",
+      projectTitle: "A Simple shell",
+      projectDesc:
+        "Simple shell also known as the shell is a simple command line prompt that takes the most basics of commands that are present in the bash shell and runs them. This shell was built as a project for Alx School.",
+    },
+    {
+      id: 5,
+      src: printf,
+      demo: "https://github.com/jackjavi/printf.git",
+      code: "https://github.com/jackjavi/printf.git",
+      projectTitle: "A printf project",
+      projectDesc:
+        "I wrote my own implementation of the printf function in c language. This printf was implemented as a project for Alx School.",
     },
   ];
 
