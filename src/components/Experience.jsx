@@ -78,7 +78,7 @@ const Experience = () => {
   return (
     <div
       name="Technologies"
-      className="bg-gray-200 text-gray-700 w-full h-full border-b-[1px] border-gray-300 py-12"
+      className="bg-gray-200 text-gray-700 w-full h-full border-b-[1px] border-gray-300 py-24"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
         <div>
