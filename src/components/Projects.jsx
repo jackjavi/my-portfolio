@@ -13,6 +13,15 @@ const Projects = () => {
     },
     {
       id: 2,
+      src: "https://farm66.staticflickr.com/65535/52648676210_456c8e5314_m.jpg",
+      demo: "https://mipangilio.netlify.app",
+      code: "https://github.com/jackjavi/blog-frontend",
+      projectTitle: "A task manager",
+      projectDesc:
+        "A CRUD (Create, Read, Update, & Delete) task manager project using React for the front-end, Node.js and MongoDB for the back-end, and Tailwind for styling.",
+    },
+    {
+      id: 3,
       src: "https://farm66.staticflickr.com/65535/52591692657_b4a89a7048_m.jpg",
       demo: "http://weatherdetector.pythonanywhere.com/",
       code: "https://github.com/jackjavi/Weather-app.git",
@@ -21,7 +30,7 @@ const Projects = () => {
         "This Django app allows users to search for and view the current weather for a particular city using data from the OpenWeatherMap API.",
     },
     {
-      id: 3,
+      id: 4,
       src: "https://farm66.staticflickr.com/65535/52592715123_185c752875_m.jpg",
       demo: "http://chatplatform.pythonanywhere.com/",
       code: "https://github.com/jackjavi/chat-app.git",
@@ -30,7 +39,7 @@ const Projects = () => {
         "This is a simple web-based chat application built using the Django web framework and allows for real-time message updates.",
     },
     {
-      id: 4,
+      id: 5,
       src: "https://farm66.staticflickr.com/65535/52592197886_261ec638c7_m.jpg",
       demo: "https://github.com/jackjavi/simple_shell.git",
       code: "https://github.com/jackjavi/simple_shell.git",
@@ -39,7 +48,7 @@ const Projects = () => {
         "Simple shell also known as the shell is a simple command line prompt that takes the most basics of commands that are present in the bash shell and runs them. This shell was built as a project for Alx School.",
     },
     {
-      id: 5,
+      id: 6,
       src: "https://farm66.staticflickr.com/65535/52592622860_b11d83744b_m.jpg",
       demo: "https://github.com/jackjavi/printf.git",
       code: "https://github.com/jackjavi/printf.git",
