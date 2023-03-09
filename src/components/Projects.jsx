@@ -3,10 +3,19 @@ import React from "react";
 const Projects = () => {
   const portfolios = [
     {
+      id: 0,
+      src: "https://live.staticflickr.com/65535/52735543261_ef2a3d907c_m.jpg",
+      demo: "https://interior-designs-company.netlify.app/",
+      code: "https://github.com/jackjavi/blog-frontend",
+      projectTitle: "Interior design company website",
+      projectDesc:
+        "This Interior Design Company website project was built using React JS and Tailwind CSS, highlighting my ability to design and develop beautiful and user-friendly interfaces for clients.",
+    },
+    {
       id: 1,
       src: "https://farm66.staticflickr.com/65535/52591715587_ca51b3c4d9_m.jpg",
       demo: "https://trending-trends.netlify.app",
-      code: "https://github.com/jackjavi/blog-frontend",
+      code: "https://github.com/jackjavi/hayes",
       projectTitle: "A blog",
       projectDesc:
         "A blog project using React for the front-end, Node.js and MongoDB for the back-end, and Tailwind for styling.",
