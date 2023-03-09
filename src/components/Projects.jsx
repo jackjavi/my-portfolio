@@ -7,7 +7,7 @@ const Projects = () => {
       src: "https://live.staticflickr.com/65535/52735543261_ef2a3d907c_m.jpg",
       demo: "https://interior-designs-company.netlify.app/",
       code: "https://github.com/jackjavi/blog-frontend",
-      projectTitle: "Interior design company website",
+      projectTitle: "Interior design company website [Currently building]",
       projectDesc:
         "This Interior Design Company website project was built using React JS and Tailwind CSS, highlighting my ability to design and develop beautiful and user-friendly interfaces for clients.",
     },
