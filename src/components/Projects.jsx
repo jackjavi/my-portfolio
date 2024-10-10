@@ -57,11 +57,14 @@ const Projects = () => {
                   />
                 </div>
 
-                <div className="px-4 pt-[5%] h-[30%]">
+                <div className="px-4 pt-[5%] h-[40%]">
                   <h5 className="text-md mx-auto font-bold mb-2 font-lora text-gray-700">
                     {projectTitle}
                   </h5>
-                  <p className="text-sm font-josefin text-gray-700">
+                  <p
+                    className="text-sm font-josefin text-gray-700
+                  "
+                  >
                     {projectDesc}
                   </p>
                 </div>
