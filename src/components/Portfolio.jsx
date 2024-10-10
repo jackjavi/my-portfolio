@@ -63,7 +63,7 @@ function Portfolio() {
       </div>
       <div className="text-xs sm:text-sm md:text-md font-lora font-light text-gray-700 cursor-pointer">
         <Link to="contact" smooth duration={500}>
-          Contact me at +254 794 326 235
+          Contact me at +254 708 313 804
         </Link>
       </div>
     </div>
