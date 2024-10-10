@@ -8,7 +8,6 @@ import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import git from "../assets/git.png";
 import tailwind from "../assets/tailwind.png";
-import django from "../assets/django.png";
 import sql from "../assets/sql.png";
 import nextjs from "../assets/nextjs.png";
 
