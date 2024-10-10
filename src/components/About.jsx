@@ -26,9 +26,9 @@ const About = () => {
             Hello! My name is Jackton Mtembete and I am a full stack developer
             with a passion for building beautiful and functional web
             applications. I have a strong foundation in frontend development,
-            utilizing React and Tailwind CSS to create engaging user interfaces.
-            On the backend, I have expertise in Node.js, Django and use MongoDB
-            as my database of choice.
+            utilizing NextJS to create engaging user interfaces. On the backend,
+            I have expertise in Node.js and use MongoDB as my database of
+            choice.
           </p>
 
           <br />

@@ -10,6 +10,7 @@ import git from "../assets/git.png";
 import tailwind from "../assets/tailwind.png";
 import django from "../assets/django.png";
 import sql from "../assets/sql.png";
+import nextjs from "../assets/nextjs.png";
 
 const Experience = () => {
   const techs = [
@@ -51,8 +52,8 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: django,
-      title: "Django",
+      src: nextjs,
+      title: "Next JS",
       style: "shadow-white",
     },
     {

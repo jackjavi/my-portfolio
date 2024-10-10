@@ -21,7 +21,7 @@ function Portfolio() {
       </div>
       <div className="px-8 text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
         I specialize in building web and mobile applications using React,
-        Tailwind CSS, Node.js, and Django.
+        NextJS, and Node.js.
       </div>
       <div className="flex flex-wrap justify-around mb-8">
         <div className="w-1/4 p-2 text-center">
