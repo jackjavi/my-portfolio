@@ -4,66 +4,32 @@ const Projects = () => {
   const portfolios = [
     {
       id: 0,
-      src: "https://live.staticflickr.com/65535/52735543261_ef2a3d907c_m.jpg",
-      demo: "https://interior-designs-company.netlify.app/",
-      code: "https://github.com/jackjavi/blog-frontend",
-      projectTitle: "Interior design company website [Currently building]",
+      src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
+      demo: "https://www.odd2tips.com/",
+      code: "https://github.com/jackjavi/odd2tips",
+      projectTitle: "Odd2Tips",
       projectDesc:
-        "This Interior Design Company website project was built using React JS and Tailwind CSS, highlighting my ability to design and develop beautiful and user-friendly interfaces for clients.",
+        "Odd2Tips is a sports platform built with NextJS. It features automated social media integration, data scraping, and Generative AI (Gemini API) for creating unique, personalized content for users.",
     },
+
     {
       id: 1,
-      src: "https://farm66.staticflickr.com/65535/52591715587_ca51b3c4d9_m.jpg",
-      demo: "https://trending-trends.netlify.app",
-      code: "https://github.com/jackjavi/hayes",
-      projectTitle: "A blog",
+      src: "http://res.cloudinary.com/popit/image/upload/v1728488887/j75td3ju1ok7isqlfo5p.png",
+      demo: "https://prep-clone.vercel.app",
+      code: "https://github.com/jackjavi/prep-clone",
+      projectTitle: "Prep Clone",
       projectDesc:
-        "A blog project using React for the front-end, Node.js and MongoDB for the back-end, and Tailwind for styling.",
+        "Prep Clone is an interview preparation platform built with React, Node.js, and MongoDB. It offers users a variety of resources to prepare for interviews and enables Google Meet sessions for mock interviews between users, providing a hands-on experience for interview practice.",
     },
+
     {
       id: 2,
-      src: "https://farm66.staticflickr.com/65535/52648676210_456c8e5314_m.jpg",
-      demo: "https://mipangilio.netlify.app",
-      code: "https://github.com/jackjavi/blog-frontend",
-      projectTitle: "A task manager",
+      src: "http://res.cloudinary.com/popit/image/upload/v1728489107/xvpmnx0wyec5htydjaer.png",
+      demo: "https://memories-crud.vercel.app",
+      code: "https://github.com/jackjavi/memories-CRUD",
+      projectTitle: "Memories Platform",
       projectDesc:
-        "A CRUD (Create, Read, Update, & Delete) task manager project using React for the front-end, Node.js and MongoDB for the back-end, and Tailwind for styling.",
-    },
-    {
-      id: 3,
-      src: "https://farm66.staticflickr.com/65535/52591692657_b4a89a7048_m.jpg",
-      demo: "http://weatherdetector.pythonanywhere.com/",
-      code: "https://github.com/jackjavi/Weather-app.git",
-      projectTitle: "A Weather app",
-      projectDesc:
-        "This Django app allows users to search for and view the current weather for a particular city using data from the OpenWeatherMap API.",
-    },
-    {
-      id: 4,
-      src: "https://farm66.staticflickr.com/65535/52592715123_185c752875_m.jpg",
-      demo: "http://chatplatform.pythonanywhere.com/",
-      code: "https://github.com/jackjavi/chat-app.git",
-      projectTitle: "A Chat app",
-      projectDesc:
-        "This is a simple web-based chat application built using the Django web framework and allows for real-time message updates.",
-    },
-    {
-      id: 5,
-      src: "https://farm66.staticflickr.com/65535/52592197886_261ec638c7_m.jpg",
-      demo: "https://github.com/jackjavi/simple_shell.git",
-      code: "https://github.com/jackjavi/simple_shell.git",
-      projectTitle: "A Simple shell",
-      projectDesc:
-        "Simple shell also known as the shell is a simple command line prompt that takes the most basics of commands that are present in the bash shell and runs them. This shell was built as a project for Alx School.",
-    },
-    {
-      id: 6,
-      src: "https://farm66.staticflickr.com/65535/52592622860_b11d83744b_m.jpg",
-      demo: "https://github.com/jackjavi/printf.git",
-      code: "https://github.com/jackjavi/printf.git",
-      projectTitle: "A printf project",
-      projectDesc:
-        "I wrote my own implementation of the printf function in c language. This printf was implemented as a project for Alx School.",
+        "Memories is a platform where users can create, view, update, and delete their cherished memories. Built using Vite for a fast and efficient front-end, with Node.js and MongoDB powering the back-end, and styled with Tailwind CSS, this project allows users to seamlessly manage their personal memories.",
     },
   ];
 
