@@ -1,7 +1,17 @@
 import React from "react";
+import pcc from "../assets/pcc.png";
 
 const Projects = () => {
   const portfolios = [
+    {
+      id: 0,
+      src: pcc,
+      demo: "https://precisionconsultingcompany.com/",
+      code: "https://precisionconsultingcompany.com/",
+      projectTitle: "Precision Consulting Company",
+      projectDesc:
+        "Precision Consulting Company is a research and statistical consulting firm built on WordPress, where I made significant contributions to the site's development. The platform showcases our expertise in providing data-driven insights and solutions for clients across various industries.",
+    },
     {
       id: 0,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
