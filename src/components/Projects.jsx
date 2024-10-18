@@ -5,13 +5,14 @@ const Projects = () => {
   const portfolios = [
     {
       id: 0,
-      src: pcc,
-      demo: "https://precisionconsultingcompany.com/",
-      code: "https://precisionconsultingcompany.com/",
-      projectTitle: "Precision Consulting Company",
+      src: "http://res.cloudinary.com/popit/image/upload/v1728489107/xvpmnx0wyec5htydjaer.png",
+      demo: "https://memories-crud.vercel.app",
+      code: "https://github.com/jackjavi/memories-CRUD",
+      projectTitle: "Memories Platform",
       projectDesc:
-        "Precision Consulting Company is a research and statistical consulting firm built on WordPress, where I made significant contributions to the site's development. The platform showcases our expertise in providing data-driven insights and solutions for clients across various industries.",
+        "Memories is a platform where users can create, view, update, and delete their cherished memories. Built using Vite for a fast and efficient front-end, with Node.js and MongoDB powering the back-end, and styled with Tailwind CSS, this project allows users to seamlessly manage their personal memories.",
     },
+
     {
       id: 0,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
@@ -31,15 +32,14 @@ const Projects = () => {
       projectDesc:
         "Prep Clone is an interview preparation platform built with React, Node.js, and MongoDB. It offers users a variety of resources to prepare for interviews and enables Google Meet sessions for mock interviews between users, providing a hands-on experience for interview practice.",
     },
-
     {
-      id: 2,
-      src: "http://res.cloudinary.com/popit/image/upload/v1728489107/xvpmnx0wyec5htydjaer.png",
-      demo: "https://memories-crud.vercel.app",
-      code: "https://github.com/jackjavi/memories-CRUD",
-      projectTitle: "Memories Platform",
+      id: 3,
+      src: pcc,
+      demo: "https://precisionconsultingcompany.com/",
+      code: "https://precisionconsultingcompany.com/",
+      projectTitle: "Precision Consulting Company",
       projectDesc:
-        "Memories is a platform where users can create, view, update, and delete their cherished memories. Built using Vite for a fast and efficient front-end, with Node.js and MongoDB powering the back-end, and styled with Tailwind CSS, this project allows users to seamlessly manage their personal memories.",
+        "Precision Consulting Company is a research and statistical consulting firm built on WordPress, where I made significant contributions to the site's development. The platform showcases our expertise in providing data-driven insights and solutions for clients across various industries.",
     },
   ];
 

@@ -42,10 +42,10 @@ function Portfolio() {
           <img src={node} alt="Node.js logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">Node.js</div>
         </div>
-        <div className="w-1/4 p-2 text-center">
+        {/*<div className="w-1/4 p-2 text-center">
           <img src={django} alt="Django logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">Django</div>
-        </div>
+        </div>*/}
       </div>
 
       <div className="mx-auto">
