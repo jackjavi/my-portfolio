@@ -49,10 +49,17 @@ const Projects = () => {
       className="border-b-[1px] border-gray-300  py-12 bg-gray-200 w-full text-gray-700 flex flex-col justify-center items-center"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
-        <div className="py-6">
-          <p className=" text-3xl sm:text-5xl font-bold font-valera inline ">
-            Projects
-          </p>
+        <div className="py-6 flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
+            <p className=" text-3xl sm:text-5xl font-bold font-valera inline mb-2 py-2">
+              Projects
+            </p>
+            <p className="text-xs sm:text-sm md:text-lg font-light font-lora text-gray-700 py-2 text-center">
+              Incase of an error while loading any of the projects'{" "}
+              <span className="text-[tomato]">Demo</span>, refresh the page
+              after 50 seconds (free server instance spins down)
+            </p>
+          </div>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-0 sm:px-0">

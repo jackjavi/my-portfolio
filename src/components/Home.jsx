@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           <p className="mx-auto md:text-3xl text-gray-300 font-lora text-1xl py-4 max-w-[70%]">
             I love to work on web application using technologies like React,
-            Tailwind and Node Js.
+            NextJS Node Js and Laravel.
           </p>
 
           <div className="mx-auto">

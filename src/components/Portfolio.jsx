@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-scroll";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import reactImage from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
-import django from "../assets/django.png";
+import mongo from "../assets/mongodb.svg";
 import TextAnimator from "./TextAnimator";
 
 function Portfolio() {
@@ -20,27 +19,22 @@ function Portfolio() {
         <TextAnimator text="Full Stack Developer" />
       </div>
       <div className="px-8 text-sm sm:text-lg md:text-xl font-lora font-light text-gray-700 mb-8">
-        I specialize in building web and mobile applications using React,
-        NextJS, and Node.js.
+        I specialize in building web applications using technologies like React,
+        NextJS, Node.js and Laravel.
       </div>
       <div className="flex flex-wrap justify-around mb-8">
         <div className="w-1/4 p-2 text-center">
           <img src={reactImage} alt="React logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">React</div>
         </div>
-        <div className="w-1/4 p-2 text-center">
-          <img
-            src={tailwind}
-            alt="Tailwind CSS logo"
-            className="w-12 h-12 mb-2"
-          />
-          <div className="text-xs font-semibold text-gray-700">
-            Tailwind CSS
-          </div>
-        </div>
+
         <div className="w-1/4 p-2 text-center">
           <img src={node} alt="Node.js logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">Node.js</div>
+        </div>
+        <div className="w-1/4 p-2 text-center">
+          <img src={mongo} alt="Tailwind CSS logo" className="w-12 h-12 mb-2" />
+          <div className="text-xs font-semibold text-gray-700">MongoDB</div>
         </div>
         {/*<div className="w-1/4 p-2 text-center">
           <img src={django} alt="Django logo" className="w-12 h-12 mb-2" />
