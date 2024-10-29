@@ -1,5 +1,6 @@
 import React from "react";
 import pcc from "../assets/pcc.png";
+import mm from "../assets/mediamarket.png";
 
 const Projects = () => {
   const portfolios = [
@@ -14,7 +15,7 @@ const Projects = () => {
     },
 
     {
-      id: 0,
+      id: 1,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
       demo: "https://www.odd2tips.com/",
       code: "https://github.com/jackjavi/odd2tips",
@@ -22,9 +23,17 @@ const Projects = () => {
       projectDesc:
         "Odd2Tips is a sports platform built with NextJS. It features automated social media integration, data scraping, and Generative AI (Gemini API) for creating unique, personalized content for users.",
     },
-
     {
-      id: 1,
+      id: 2,
+      src: mm,
+      demo: "https://mediamarket.netlify.app/",
+      code: "https://github.com/jackjavi/MediaMarket.git",
+      projectTitle: "Media Market",
+      projectDesc:
+        "Your One-Stop shop for digital downloads. Media Market is a digital marketplace built with React, Node.js, and MongoDB.",
+    },
+    {
+      id: 3,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488887/j75td3ju1ok7isqlfo5p.png",
       demo: "https://prep-clone.vercel.app",
       code: "https://github.com/jackjavi/prep-clone",
@@ -33,7 +42,7 @@ const Projects = () => {
         "Prep Clone is an interview preparation platform built with React, Node.js, and MongoDB. It offers users a variety of resources to prepare for interviews and enables Google Meet sessions for mock interviews between users, providing a hands-on experience for interview practice.",
     },
     {
-      id: 3,
+      id: 4,
       src: pcc,
       demo: "https://precisionconsultingcompany.com/",
       code: "https://precisionconsultingcompany.com/",

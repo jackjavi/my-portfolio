@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col justify-around items-center  h-full px-4 md:flex-row">
         <div className="flex flex-col gap-5 h-full pt-24">
           <h2 className="text-3xl sm:text-5xl md:text-7xl mx-auto font-lora font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Full Stack Engineer
           </h2>
           <div className="md:hidden">
             <img

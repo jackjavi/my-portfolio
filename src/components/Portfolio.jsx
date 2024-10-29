@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import mongo from "../assets/mongodb.svg";
+import laravel from "../assets/Laravel.svg.png";
 import TextAnimator from "./TextAnimator";
 
 function Portfolio() {
@@ -22,7 +23,7 @@ function Portfolio() {
         I specialize in building web applications using technologies like React,
         NextJS, Node.js and Laravel.
       </div>
-      <div className="flex flex-wrap justify-around mb-8">
+      <div className="flex flex-wrap gap-2 justify-around mb-8">
         <div className="w-1/4 p-2 text-center">
           <img src={reactImage} alt="React logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">React</div>
@@ -32,14 +33,15 @@ function Portfolio() {
           <img src={node} alt="Node.js logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">Node.js</div>
         </div>
+
+        <div className="w-1/4 p-2 text-center">
+          <img src={laravel} alt="Laravel logo" className="w-12 h-12 mb-2" />
+          <div className="text-xs font-semibold text-gray-700">Laravel</div>
+        </div>
         <div className="w-1/4 p-2 text-center">
           <img src={mongo} alt="Tailwind CSS logo" className="w-12 h-12 mb-2" />
           <div className="text-xs font-semibold text-gray-700">MongoDB</div>
         </div>
-        {/*<div className="w-1/4 p-2 text-center">
-          <img src={django} alt="Django logo" className="w-12 h-12 mb-2" />
-          <div className="text-xs font-semibold text-gray-700">Django</div>
-        </div>*/}
       </div>
 
       <div className="mx-auto">
