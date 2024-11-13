@@ -25,6 +25,15 @@ const Projects = () => {
     },
     {
       id: 2,
+      src: "http://res.cloudinary.com/popit/image/upload/v1731482449/symdhkqx52povfxzitda.png",
+      demo: "https://dudley-school.vercel.app/",
+      code: "https://github.com/jackjavi/School-Management-System",
+      projectTitle: "School Management System",
+      projectDesc:
+        "Streamline school management, class organization, and add students and faculty. Seamlessly track attendance, assess performance, and provide feedback. Access records, view marks, and communicate effortlessly. ",
+    },
+    {
+      id: 3,
       src: mm,
       demo: "https://mediamarket.netlify.app/",
       code: "https://github.com/jackjavi/MediaMarket.git",
@@ -33,7 +42,7 @@ const Projects = () => {
         "Your One-Stop shop for digital downloads. Media Market is a digital marketplace built with React, Node.js, and MongoDB.",
     },
     {
-      id: 3,
+      id: 4,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488887/j75td3ju1ok7isqlfo5p.png",
       demo: "https://prep-clone.vercel.app",
       code: "https://github.com/jackjavi/prep-clone",
@@ -42,7 +51,7 @@ const Projects = () => {
         "Prep Clone is an interview preparation platform built with React, Node.js, and MongoDB. It offers users a variety of resources to prepare for interviews and enables Google Meet sessions for mock interviews between users, providing a hands-on experience for interview practice.",
     },
     {
-      id: 4,
+      id: 5,
       src: pcc,
       demo: "https://precisionconsultingcompany.com/",
       code: "https://precisionconsultingcompany.com/",
