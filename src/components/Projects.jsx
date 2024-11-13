@@ -19,7 +19,7 @@ const Projects = () => {
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
       demo: "https://www.odd2tips.com/",
       code: "https://github.com/jackjavi/odd2tips",
-      projectTitle: "Odd2Tips",
+      projectTitle: "Odd2Tips - (Reload after 50 seconds if demo doesn't load)",
       projectDesc:
         "Odd2Tips is a sports platform built with NextJS. It features automated social media integration, data scraping, and Generative AI (Gemini API) for creating unique, personalized content for users.",
     },
