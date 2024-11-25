@@ -1,5 +1,4 @@
 import React from "react";
-import pcc from "../assets/pcc.png";
 import mm from "../assets/mediamarket.png";
 
 const Projects = () => {
@@ -57,15 +56,6 @@ const Projects = () => {
       projectTitle: "Prep Clone",
       projectDesc:
         "Prep Clone is an interview preparation platform built with React, Node.js, and MongoDB. It offers users a variety of resources to prepare for interviews and enables Google Meet sessions for mock interviews between users, providing a hands-on experience for interview practice.",
-    },
-    {
-      id: 6,
-      src: pcc,
-      demo: "https://precisionconsultingcompany.com/",
-      code: "https://precisionconsultingcompany.com/",
-      projectTitle: "Precision Consulting Company",
-      projectDesc:
-        "Precision Consulting Company is a research and statistical consulting firm built on WordPress, where I made significant contributions to the site's development. The platform showcases our expertise in providing data-driven insights and solutions for clients across various industries.",
     },
   ];
 
