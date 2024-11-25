@@ -1,47 +1,56 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
-import git from "../assets/git.png";
-import tailwind from "../assets/tailwind.png";
 import sql from "../assets/sql.png";
 import nextjs from "../assets/nextjs.png";
+import redux from "../assets/redux.webp";
+import typescript from "../assets/typescript.webp";
+import express from "../assets/express.png";
+import tailwind from "../assets/tailwind.png";
+import html from "../assets/html.png";
+import git from "../assets/git.png";
 
 const Experience = () => {
   const techs = [
     {
-      id: 1,
+      id: 0,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-white",
+    },
+    {
+      id: 1,
+      src: tailwind,
+      title: "Tailwind CSS",
+      style: "shadow-white",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: git,
+      title: "Git",
+      style: "shadow-white",
     },
+
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-yellow-300",
     },
     {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-yellow-300",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: express,
+      title: "Express JS",
+      style: "shadow-yellow-300",
     },
     {
       id: 6,
@@ -56,6 +65,18 @@ const Experience = () => {
       style: "shadow-white",
     },
     {
+      id: 11,
+      src: redux,
+      title: "Redux",
+      style: "shadow-white",
+    },
+    {
+      id: 12,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-pink-400",
+    },
+    {
       id: 8,
       src: mongo,
       title: "",
@@ -66,12 +87,6 @@ const Experience = () => {
       src: sql,
       title: "SQL",
       style: "shadow-pink-400",
-    },
-    {
-      id: 10,
-      src: git,
-      title: "Git",
-      style: "shadow-gray-400",
     },
   ];
 
