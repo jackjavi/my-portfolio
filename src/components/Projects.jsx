@@ -16,9 +16,9 @@ const Projects = () => {
     {
       id: 1,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
-      demo: "https://www.odd2tips.com/",
+      demo: "https://youtu.be/CJg0PxN_GUg?si=ZNZjcVq04QdAQU41",
       code: "https://github.com/jackjavi/odd2tips",
-      projectTitle: "Odd2Tips - (Reload after 50 seconds if demo doesn't load)",
+      projectTitle: "Odd2Tips",
       projectDesc:
         "Odd2Tips is a sports platform built with NextJS. It features automated social media integration, data scraping, and Generative AI (Gemini API) for creating unique, personalized content for users.",
     },
@@ -80,11 +80,11 @@ const Projects = () => {
             <p className=" text-3xl sm:text-5xl font-bold font-valera inline mb-2 py-2">
               Projects
             </p>
-            <p className="text-xs sm:text-sm md:text-lg font-light font-lora text-gray-700 py-2 text-center">
+            {/*<p className="text-xs sm:text-sm md:text-lg font-light font-lora text-gray-700 py-2 text-center">
               Incase of an error while loading any of the projects'{" "}
               <span className="text-[tomato]">Demo</span>, refresh the page
               after 50 seconds (free server instance spins down)
-            </p>
+            </p>*/}
           </div>
         </div>
 
