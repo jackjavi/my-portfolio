@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
-import mongo from "../assets/mongodb.svg";
+import sql from "../assets/sql.png";
 import laravel from "../assets/Laravel.svg.png";
 import TextAnimator from "./TextAnimator";
 
@@ -39,8 +39,8 @@ function Portfolio() {
           <div className="text-xs font-semibold text-gray-700">Laravel</div>
         </div>
         <div className="w-1/4 p-2 text-center">
-          <img src={mongo} alt="Tailwind CSS logo" className="w-12 h-12 mb-2" />
-          <div className="text-xs font-semibold text-gray-700">MongoDB</div>
+          <img src={sql} alt="Tailwind CSS logo" className="w-12 h-12 mb-2" />
+          {/*<div className="text-xs font-semibold text-gray-700">MongoDB</div>*/}
         </div>
       </div>
 

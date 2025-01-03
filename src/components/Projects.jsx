@@ -1,17 +1,17 @@
 import React from "react";
-import mm from "../assets/mediamarket.png";
 
 const Projects = () => {
   const portfolios = [
     {
       id: 0,
-      src: "http://res.cloudinary.com/popit/image/upload/v1732516366/srxna0mvnzyskimzva2a.png",
-      demo: "https://drive.google.com/file/d/18VFIuziYZw16vcieLF9nUd7CYfNajpR0/view?usp=sharing",
-      code: "https://github.com/jackjavi/Aviator-Automated-Bot.git",
-      projectTitle: "Aviator Automated Bot",
+      src: "https://res.cloudinary.com/popit/image/upload/v1734019995/wxwq6qczllwjlflx5nt4.png",
+      demo: "https://drive.google.com/file/d/1OoTU79h4fTws1bwj5UXvQF8V4j0FBK4b/view?usp=sharing",
+      code: "https://github.com/jackjavi/Member-Management_System",
+      projectTitle: "Member Management System",
       projectDesc:
-        "Built using Node.js, TensorFlow, Puppeteer, and other powerful libraries, the Aviator Betting Bot is an automation tool designed to monitor and place bets on the Aviator game automatically. ",
+        "The Member Management System is a comprehensive application designed to manage users, roles, and their associated activities. It ensures secure authentication, seamless member management, and insightful data visualization.",
     },
+
     {
       id: 1,
       src: "http://res.cloudinary.com/popit/image/upload/v1728488754/zajohdohjpepxbfuoqpd.png",
@@ -32,21 +32,21 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: "http://res.cloudinary.com/popit/image/upload/v1732516366/srxna0mvnzyskimzva2a.png",
+      demo: "https://drive.google.com/file/d/18VFIuziYZw16vcieLF9nUd7CYfNajpR0/view?usp=sharing",
+      code: "https://github.com/jackjavi/Aviator-Automated-Bot.git",
+      projectTitle: "Aviator Automated Bot",
+      projectDesc:
+        "Built using Node.js, TensorFlow, Puppeteer, and other powerful libraries, the Aviator Betting Bot is an automation tool designed to monitor and place bets on the Aviator game automatically. ",
+    },
+    {
+      id: 4,
       src: "http://res.cloudinary.com/popit/image/upload/v1731482449/symdhkqx52povfxzitda.png",
       demo: "https://dudley-school.vercel.app/",
       code: "https://github.com/jackjavi/School-Management-System",
       projectTitle: "School Management System",
       projectDesc:
         "Streamline school management, class organization, and add students and faculty. Seamlessly track attendance, assess performance, and provide feedback. Access records, view marks, and communicate effortlessly. ",
-    },
-    {
-      id: 4,
-      src: mm,
-      demo: "https://mediamarket.netlify.app/",
-      code: "https://github.com/jackjavi/MediaMarket.git",
-      projectTitle: "Media Market",
-      projectDesc:
-        "Your One-Stop shop for digital downloads. Media Market is a digital marketplace built with React, Node.js, and MongoDB.",
     },
     {
       id: 5,
